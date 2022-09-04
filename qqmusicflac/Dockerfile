@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:alpine
 WORKDIR /bestrui
 RUN wget https://github.com/QiuChenly/QQFlacMusicDownloader/archive/refs/heads/main.zip
 RUN unzip main.zip  && rm -rf main.zip
