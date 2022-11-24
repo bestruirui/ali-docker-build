@@ -1,1 +1,2 @@
 FROM saobing/saobingpro
+CMD [" "]
